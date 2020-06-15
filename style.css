@@ -7,6 +7,44 @@ h1 {
 }
 
 
+.my-btn{  
+  display: inline-block;
+  color: white;
+  background: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+
+.my-btn:hover {
+  color: red;
+  opacity: 0.8;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F0F0F0;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+}
+
+.link:hover {
+  color: red;
+
+}
 
 
 h2, h3, h4 {
@@ -69,10 +107,11 @@ p, ul, ol {
   background: #F0F0F0
 }
 
+
 .cadre {
   background: #F0F0F0;
   border: 3px solid #888888;
-  margin: 20px 100px;
+  margin: 0px 0px;
   padding: 30px 70px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px grey;
