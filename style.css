@@ -1,0 +1,249 @@
+h1 {
+  color: black;
+  font-size: 60px;
+  background: #F0F0F0;
+  font-family: 'Anton', sans-serif;
+   text-align: center; 
+}
+
+
+
+
+h2, h3, h4 {
+ color: black;
+  font-size: 30 px;
+  background: red;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  color: black;
+  background: #F0F0F0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 25px;
+}
+.logo {
+  height: 200px;
+  margin: 5px;}
+
+a:hover {
+  color: white;
+}
+
+a, a: hover {
+  text-decoration: none;
+}
+
+p, ul, ol {
+  font-size: 20px;
+}
+
+
+
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  background: #F0F0F0
+}
+
+.cadre {
+  background: #F0F0F0;
+  border: 3px solid #888888;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  text-align: center;
+} 
+
+.cadrerouge {
+  background: red;
+  border: 3px solid red;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  text-align: center;
+} 
+.ecri{ 
+  color: black;
+  font-size: 35 px;
+  background: red;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+
+}
+.ecriblanc{ 
+  color: black;
+  font-size: 35 px;
+  background: #F0F0F0;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+
+}
+.couv {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+
+}
+  
+
+.lesimages
+
+{ background: #F0F0F0;
+  border: 3px solid #888888;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  text-align: center;
+}
+
+  .enfants
+  { width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+.famille  { width: 800px;
+  height: 400px;
+   object-fit: cover;
+}
+
+
+.horizontal-position{
+  background: red;
+  border: 3px solid red;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: column;
+  text-align: left;
+}
+
+.ecrileft{color: black;
+  font-size: 35 px;
+  background: red;
+  font-family: 'Anton', sans-serif;
+  text-align: left;
+  height: 50px;
+  width: 20%;
+}
+.ecrileftb
+{color: black;
+  font-size: 35 px;
+  background: #F0F0F0;
+  font-family: 'Anton', sans-serif;
+  text-align: left;
+  height: 50px;
+  width: 20%;}
+
+
+.cadrer {  background: red;
+  border: 3px solid red;
+  margin: 20px 100px;
+  padding: 70px 70px;
+  border-radius: 5px;
+  text-align: left;
+} 
+
+.line-transparent {
+  background: black;
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 10px;
+  width: 20%;
+  background: red;
+}
+
+.line-medium {
+  height: 10px;
+  width: 30%;
+  background: black;
+
+}
+
+.line-hard {
+  height: 10px;
+  width: 50%;
+  background: grey;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+}
+
+.link:hover {
+  color: white;
+}
+
+a:hover {
+  color: white;
+
+a, a:hover {
+  text-decoration: none;
+}
+
+
+
+.btn-pink {
+  display: inline-block;
+  color: white;
+  background: #C86472;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+
+.btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
